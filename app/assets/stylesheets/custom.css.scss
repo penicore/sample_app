@@ -95,7 +95,7 @@ footer {
 	a{
 	color: $gray;
 	&:hover{
-	color: $grayDarker;
+	color: #ff1493;
 	}
 }
 	small {
@@ -149,6 +149,38 @@ aside {
 	float: left;
 	margin-right: 10px;
 }
+
+
+.stats { 
+	overflow: auto;
+	a {
+		float: left;
+		padding: 0 10px;
+		border-left: 1px solid $grayLight;
+		color: gray;
+		&:first-child {
+		padding-left: 0;
+		border: 0;
+		}
+		&hover{
+			text-decoration: blink;
+			color: #6a5acd;
+		}
+	}
+	strong {
+		display: block;
+	}
+}
+
+.user_avatars {
+	overflow: auto;
+	margin-top: 10px;
+	.gravatar {
+	margin: 1px 1px;
+	}
+}
+
+
 
 /* forms */
 
@@ -216,3 +248,4 @@ aside {
 	margin-bottom: 5px;
 	}
 }
+
