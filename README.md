@@ -1,4 +1,3 @@
-# Ruby on Rails Tutorial: sample application
+# Rails custom sample app
 
-This is the sample application for
-[*Ruby on Rails Tutorial: Learn Rails by Example*] (http://railstutorial.org) by [Miguelito Crazonatl] (Http:littleputa.com)
+This is the sample application built to hone my RoR Skills
